@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width : 100%;
+    background-color: whitesmoke;
+    height : 30vh;
+    display : flex;
+    align-items: flex-start;
+    flex-direction:column ;
+    padding : 10px 0px 0px 10px;
+    border-bottom : 2px solid red;
+    margin-bottom : 15px; 
+}
+
+.card img{
+    width : 50px;
+}
+
+.card .name-tag{
+    font-size : 20px;
+    color : black;
+}
+
+.card .email-tag{
+    font-size : 20px;
+    margin : 5px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.card button{
+    padding : 4px 8px;
+    font-size : 20px;
+    cursor : pointer;
+    margin : 10px;
+    align-self: flex-end;
+    background-color: red;
+    color : white;
+    border-radius : 15px;
+    border : 2px solid orangered;
+}
+
+.card button:hover{
+    color : black;
+    background-color: orangered;
+    border : 2px solid green;
+}
